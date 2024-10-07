@@ -1,11 +1,14 @@
+#Name Of the Workflow/Pipeline
 name: "Hello World Workflow"
 
 # Trigger the Workflow
 on:
+    #Event to trigger the pipeline
     push:
         branches:
             - master
             - production
+
 
 jobs:
     hellow_world:
